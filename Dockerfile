@@ -1,2 +1,2 @@
-FROM nginx:this-tag-does-not-exist
+FROM nginx:1.27
 COPY index.html /usr/share/nginx/html/index.html
